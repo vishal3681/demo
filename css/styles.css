@@ -1,0 +1,183 @@
+#title {
+   background-color: #ff4c68;
+   font-family: "Montserrat";
+   color: #fff;
+}
+h1{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+.container-fluid {
+  padding: 3% 15% 12%;
+}
+.navbar{
+  padding: 0 0 3rem;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: 900;
+}
+.nav-item {
+  padding: 0 1.5rem;
+  font-weight: 100;
+}
+.header-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+.Download-button {
+  margin: 15px;
+}
+.icon-space {
+  margin-right: 5px;
+}
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+.feature-box {
+  padding: 3%;
+}
+.feature-icons {
+  font-size: 2.5rem;
+  color: #ef8172;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.feature-icons:hover {
+  color: #ff4c68;
+}
+#features p {
+  font-size: .9rem;
+  line-height: 1.5rem;
+  color: #8f8f8f;
+}
+#testimonials {
+  background-color: #ef8172;
+
+  text-align: center;
+  color: #fff;
+}
+.carousel-inner {
+    padding: 7% 15%;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+.press-image {
+  width: 15%;
+margin-bottom: 60px;
+}
+
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-box {
+  padding: 3%;
+}
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
+.city-header {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+#footer {
+  padding: 7% 15%;
+  /* text-align: center; */
+}
+.footer-navs {
+  font-family: "Ubuntu";
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 1.5rem;
+    list-style: none;
+
+}
+.social-links {
+    list-style: none;
+  
+}
+
+.footer-navs li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-navs li a:link,
+.footer-navs li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    border: 0;
+    color: #010101;
+}
+.footer-navs li a:hover,
+.footer-navs li a:active {
+    color: #a02424;
+}
+#footer {
+    text-align: center;
+     color: #a2a0a0;
+
+}
+.social-links li a i {
+    font-size: 30px;
+}
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+.ion-social-googleplus:hover{
+    color: #dd4b39;
+}
+.ion-social-twitter:hover{
+    color: #55acee;
+}
+.ion-social-instagram:hover{
+    color: #e95950;
+}
+
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .header-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+}
